@@ -20,10 +20,7 @@ git credentialsId: '9c5600a6-c0d3-4e81-a2b3-cca6d7257abb', url: 'https://github.
        sh 'mvn package'
      }
    }
-     stage('Deploy to Artifactory Repo') {
-     }
-
-   
+       
     stage('Deploy to Dev') {
       //junit '**/target/surefire-reports/TEST-*.xml'
       //archive 'target/*.jar'
